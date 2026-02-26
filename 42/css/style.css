@@ -1,0 +1,58 @@
+body {
+	font-family: sans-serif;
+}
+
+.form {
+	padding: 15px 30px 20px 20px;
+	border: 1px solid #000;
+	border-radius: 7px;
+	max-width: 300px;
+}
+
+.form-group {
+	margin: 0;
+	border: none;
+	padding-bottom: 0;
+	margin-bottom: 7px;
+	padding-block: 0 0;
+	padding-inline: 0;
+}
+
+.label {
+	display: block;
+}
+
+.input {
+	display: block;
+	width: 260px;
+	padding: 4px 0px 4px 8px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	margin-bottom: 8px;
+}
+.h2 {
+	margin-bottom: 3px;
+}
+
+.h1 {
+	font-weight: 700;
+	padding: 0;
+	margin-bottom: 11px;
+}
+
+.message {
+	resize: vertical;
+	max-height: 170px;
+	min-height: 40px;
+	width: 260px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	padding: 4px 0px 4px 8px;
+}
+
+.button {
+	cursor: pointer;
+}
+.checkbox {
+	margin-right: 5px;
+}

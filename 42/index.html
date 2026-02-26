@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<form class="form">
+			<fieldset class="form-group">
+				<legend class="h1">Ваши личные данные</legend>
+				<label class="label">
+					<div class="h2">Ваше имя</div>
+					<input
+						class="input"
+						type="text"
+						required
+						name="name"
+						placeholder="Имя"
+					/>
+				</label>
+				<label class="label">
+					<div class="h2">Возраст</div>
+					<input
+						class="input"
+						type="number"
+						required
+						name="age"
+						placeholder="Возраст"
+					/>
+				</label>
+				<label class="label">
+					<div class="h2">Номер телефона</div>
+					<input
+						class="input"
+						type="tel"
+						required
+						name="tel"
+						placeholder="Номер телефона"
+					/>
+				</label>
+				<label class="label">
+					<div class="h2">Ваша почта</div>
+					<input
+						class="input"
+						type="email"
+						required
+						name="email"
+						placeholder="Почта"
+					/>
+				</label>
+			</fieldset>
+			<fieldset class="form-group">
+				<legend class="h2">Сообщение</legend>
+				<label class="label">
+					<textarea
+						class="message"
+						name="message"
+						required
+						placeholder="Ваше сообщение"
+					></textarea>
+				</label>
+				<label class="label">
+					<input class="checkbox" type="checkbox" name="rules" required />Я
+					принимаю правила
+				</label>
+			</fieldset>
+			<button class="button">Отправить</button>
+			<button type="reset" class="button">Отчистить</button>
+		</form>
+	</body>
+</html>
