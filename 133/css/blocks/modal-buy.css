@@ -1,0 +1,119 @@
+@media (width > 576px) {
+	.modal-buy {
+		width: min(800px, 80%);
+	}
+}
+
+.modal__content {
+	max-width: 448px;
+	margin: 0 auto;
+}
+
+@media (width > 576px) {
+	.modal-buy__title {
+		margin-bottom: 22px;
+	}
+}
+@media (width <= 576px) {
+	.modal-buy__title {
+		margin-bottom: 11px;
+	}
+}
+
+.modal-buy__form {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+.modal-buy__label {
+	margin-bottom: 22px;
+}
+
+.modal-buy__input {
+	display: inline-block;
+	width: 100%;
+
+	color: var(--main-color);
+	border-radius: 8px;
+	background-color: transparent;
+	border: 3px solid var(--main-color);
+}
+
+@media (width > 576px) {
+	.modal-buy__input {
+		padding: 16px 10px;
+		font-size: 20px;
+	}
+}
+
+@media (width <= 576px) {
+	.modal-buy__input {
+		padding: 10px;
+		font-size: 16px;
+	}
+}
+
+.modal-buy__input::-webkit-input-placeholder {
+	color: var(--secondary-color);
+}
+
+.modal-buy__input::-moz-placeholder {
+	color: var(--secondary-color);
+}
+
+.modal-buy__input:-ms-input-placeholder {
+	color: var(--secondary-color);
+}
+
+.modal-buy__input::-ms-input-placeholder {
+	color: var(--secondary-color);
+}
+
+.modal-buy__input::placeholder {
+	color: var(--secondary-color);
+}
+
+.modal-buy__submit {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 130%;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: var(--bg-color);
+
+	background: var(--accent-color);
+	border-radius: 6px;
+	-webkit-transition: -webkit-box-shadow var(--transition-time);
+	transition: -webkit-box-shadow var(--transition-time);
+	-o-transition: box-shadow var(--transition-time);
+	transition: box-shadow var(--transition-time);
+	transition:
+		box-shadow var(--transition-time),
+		-webkit-box-shadow var(--transition-time);
+}
+
+@media (any-hover: hover) {
+	.modal-buy__submit:hover {
+		-webkit-box-shadow: var(--shadow-accent-glow);
+		box-shadow: var(--shadow-accent-glow);
+	}
+}
+.modal-buy__submit:active {
+	background-color: #ddcb00;
+}
+
+@media (width > 576px) {
+	.modal-buy__submit {
+		padding: 19px 39px;
+	}
+}
+@media (width <= 576px) {
+	.modal-buy__submit {
+		padding: 10px 20px;
+	}
+}
