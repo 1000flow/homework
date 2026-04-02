@@ -28,7 +28,7 @@
 	visibility: visible;
 }
 
-.modal__window::before {
+.modal::before {
 	content: "";
 	display: inline-block;
 	height: 100%;
