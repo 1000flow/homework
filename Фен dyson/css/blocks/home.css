@@ -1,0 +1,30 @@
+.home {
+	background-color: #ddd;
+	overflow: hidden;
+}
+
+.home__container {
+	position: relative;
+	min-height: 850px;
+	display: flex;
+	align-items: center;
+}
+
+.image__container {
+	max-width: 997px;
+	aspect-ratio: 997 / 850;
+}
+
+.home__image {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	top: 0;
+	right: -257px;
+}
+.home__title {
+	max-width: 556px;
+}
+.home__content {
+}

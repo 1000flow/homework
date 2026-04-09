@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ru" class="page">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/index.css" />
+		<script src="./js/index.js" type="module"></script>
+		<title>Фен Dyson</title>
+	</head>
+	<body class="page__body">
+		<header class="header">
+			<div class="container header__container">
+				<button
+					class="header__burger burger"
+					aria-label="Открыть меню"
+					aria-expanded="false"
+					aria-controls="header__menu"
+				>
+					<svg class="burger-icon">
+						<use
+							class="burger__icon-open"
+							href="./icons/header-sprite.svg#burger"
+						></use>
+						<use
+							class="burger__icon-close"
+							href="./icons/header-sprite.svg#cross"
+						></use>
+					</svg>
+				</button>
+				<a href="#" class="logo header__logo">
+					<img
+						class="header__logo-img"
+						class="logo-icon"
+						src="./icons/logo-icon.png"
+						alt="Логитип Фен dyson"
+					/>
+				</a>
+				<nav
+					class="menu header__menu"
+					id="header__menu"
+					aria-label="Главное меню"
+				>
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a href="#about-us" class="menu__link">О нас</a>
+						</li>
+						<li class="menu__item">
+							<a href="#delivery-pay" class="menu__link">Доставка и оплата</a>
+						</li>
+						<li class="menu__item">
+							<a href="#register-product" class="menu__link"
+								>Регистрация продукта</a
+							>
+						</li>
+						<li class="menu__item">
+							<a href="#service" class="menu__link">Сервис</a>
+						</li>
+						<li class="menu__item">
+							<a href="#certificates-license" class="menu__link"
+								>Сертификаты и лицензии</a
+							>
+						</li>
+					</ul>
+				</nav>
+				<div class="header__shop">
+					<button class="header__shop-button">
+						<svg class="header__shop-icon">
+							<use href="./icons/header-sprite.svg#shop"></use>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section class="home">
+				<div class="container home-container home__container">
+					<div class="home__content">
+						<h1 class="home__title">
+							Уникальные технологии для ухода за волосами
+						</h1>
+						<p class="home__text">
+							Идеальная укладка для всех типов волос вместе с Dyson
+						</p>
+						<button class="home__button">Подробнее</button>
+					</div>
+					<div class="image__container">
+						<img
+							class="home__image"
+							src="./images/home-girl-img.png"
+							alt="Девушка сушит волосы феном dyson"
+						/>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
