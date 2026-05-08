@@ -1,0 +1,175 @@
+/* .sections {
+	display: none;
+} */
+
+.sections__list {
+	display: grid;
+	column-gap: 20px;
+	row-gap: 10px;
+}
+
+@media (width <= 636px) {
+	.sections__list {
+		column-gap: 10px;
+		row-gap: 10px;
+	}
+}
+@media (width > 1390px) {
+	.sections__list {
+		margin-inline: auto;
+		grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+	}
+}
+@media (width <= 1390px) {
+	.sections__list {
+		margin-inline: auto;
+		grid-template-columns: repeat(4, minmax(225px, 1fr));
+	}
+}
+
+@media (width <= 1000px) {
+	.sections__list {
+		margin-inline: auto;
+		grid-template-columns: repeat(4, 142px);
+		justify-content: center;
+	}
+}
+@media (width <= 635px) {
+	.sections__list {
+		margin-inline: auto;
+		grid-template-columns: repeat(auto-fit, 170px);
+		justify-content: center;
+	}
+}
+
+.sections__item {
+	border-radius: 3px;
+	background-color: #fff;
+	box-shadow:
+		0 2px 21px 0 rgba(0, 0, 0, 0.05),
+		0 2px 21px 0 rgba(0, 0, 0, 0.05);
+}
+
+@media (width <= 1000px) {
+	.sections__img {
+		width: 142px;
+		height: 142px;
+	}
+}
+@media (width <= 635px) {
+	.sections__img {
+		width: 170px;
+		height: 170px;
+	}
+}
+
+.sections__content {
+	border-radius: 0 0 10px 10px;
+	display: block;
+	padding: 20px 40px 30px 40px;
+	transition: background-color var(--transition-time);
+}
+
+@media (width <= 1220px) {
+	.sections__content {
+		padding: 15px 19px 20px 17px;
+	}
+}
+@media (width <= 1000px) {
+	.sections__content {
+		padding: 10px 14px 15px 12px;
+	}
+}
+
+.sections__content {
+	transition: background-color var(--transition-time);
+}
+.sections__content .sections__title {
+	transition: color var(--transition-time);
+}
+.sections__content .sections__more .sections__more-text {
+	transition: color var(--transition-time);
+}
+.sections__content .sections__more {
+	transition: fill var(--transition-time);
+}
+@media (any-hover: hover) {
+	.sections__content:hover {
+		background-color: var(--second-color);
+	}
+	.sections__content:hover .sections__title {
+		color: #fff;
+	}
+	.sections__content:hover .sections__more .sections__more-text {
+		color: #fff;
+	}
+	.sections__content:hover .sections__more {
+		fill: #fff;
+	}
+}
+.sections__title {
+	font-size: 30px;
+	margin-bottom: 11px;
+}
+
+@media (width <= 1220px) {
+	.sections__title {
+		font-size: 23px;
+	}
+}
+@media (width <= 1000px) {
+	.sections__title {
+		font-size: 16px;
+		margin-bottom: 5px;
+	}
+}
+@media (width <= 569px) {
+	.sections__title {
+		font-size: 13px;
+		margin-bottom: 8px;
+	}
+}
+
+.sections__more {
+	display: flex;
+	align-items: center;
+}
+
+.sections__more-text {
+	margin-right: 20px;
+	font-weight: 400;
+	font-size: 24px;
+	color: var(--second-color);
+}
+
+@media (width <= 1000px) {
+	.sections__more-text {
+		margin-right: 8px;
+	}
+}
+@media (width <= 1000px) {
+	.sections__more-text {
+		margin-right: 10px;
+	}
+}
+@media (width <= 1000px) {
+	.sections__more-icon {
+		width: 14px;
+		height: 12px;
+	}
+}
+
+@media (width <= 1220px) {
+	.sections__more-text {
+		font-size: 18px;
+	}
+}
+@media (width <= 1000px) {
+	.sections__more-text {
+		font-size: 12px;
+	}
+}
+
+/* .sections__more {
+	fill: aqua;
+} */

@@ -1,0 +1,61 @@
+@font-face {
+	font-family: OpenSans;
+	src:
+		local("OpenSans Light"),
+		("OpenSans-Light"),
+		url(../../fonts/OpenSans-Light.woff2) format("woff2");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: OpenSans;
+	src:
+		local("OpenSans Regular"),
+		("OpenSans-Regular"),
+		url(../../fonts/OpenSans-Medium.woff2) format("woff2");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: OpenSans;
+	src:
+		local("OpenSans Medium"),
+		("OpenSans-Medium"),
+		url(../../fonts/OpenSans-Medium.woff2) format("woff2");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: OpenSans;
+	src:
+		local("OpenSans SemiBold"),
+		("OpenSans-SemiBold"),
+		url(../../fonts/OpenSans-SemiBold.woff2) format("woff2");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: OpenSans;
+	src:
+		local("OpenSans Bold"),
+		("OpenSans-Bold"),
+		url(../../fonts/OpenSans-Bold.woff2) format("woff2");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: NAMUPro;
+	src:
+		local("NAMUPro Black"),
+		("NAMUPro-Black"),
+		url(../../fonts/NAMUPro-Black.woff2) format("woff2");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}

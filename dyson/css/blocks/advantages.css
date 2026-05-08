@@ -1,0 +1,125 @@
+.advantages__list {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(345px, 1fr));
+	gap: 20px;
+}
+
+@media (width <= 1390px) {
+	.advantages__list {
+		grid-template-columns: repeat(2, minmax(304px, 1fr));
+	}
+}
+@media (width <= 650px) {
+	.advantages__list {
+		grid-template-columns: repeat(1, 1fr);
+		justify-content: center;
+	}
+}
+/* @media (width <= 390px) {
+	.advantages__list {
+		grid-template-columns: repeat(1, 350px);
+	}
+} */
+
+.advantages__item {
+	box-shadow: 0 4px 41px 0 rgba(0, 0, 0, 0.05);
+	background: #fff;
+}
+.advantages__card {
+	padding: 26px 105px 46px 105px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (width <= 1390px) {
+	.advantages__card {
+		padding: 18px 71px 30px 71px;
+	}
+}
+@media (width <= 650px) {
+	.advantages__card {
+		display: flex;
+		justify-content: start;
+		flex-direction: row;
+		padding: 16px 50px 26px 33px;
+	}
+}
+
+.advantages__title {
+	font-size: 42px;
+	margin-bottom: 60px;
+}
+
+@media (width <= 768px) {
+	.advantages__title {
+		font-size: 20px;
+		margin-bottom: 40px;
+	}
+}
+@media (width <= 768px) {
+	.advantages__title {
+		font-size: 24px;
+		margin-bottom: 30px;
+	}
+}
+.advantages__icon-box {
+	margin-bottom: 15px;
+}
+
+@media (width <= 650px) {
+	.advantages__icon {
+		margin-bottom: 0;
+	}
+}
+.advantages__subtitle {
+	margin-bottom: 13px;
+	font-family: var(--second-family);
+	font-weight: 900;
+	font-size: 20px;
+	text-align: center;
+	color: #000;
+}
+
+@media (width <= 768px) {
+	.advantages__subtitle {
+		margin-bottom: 8px;
+		font-size: 14px;
+	}
+}
+@media (width <= 650px) {
+	.advantages__subtitle {
+		margin-bottom: 8px;
+		font-size: 13px;
+		text-align: start;
+	}
+}
+.advantages__text {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 130%;
+	text-align: center;
+	color: #000;
+}
+@media (width <= 768px) {
+	.advantages__text {
+		font-size: 12px;
+	}
+}
+@media (width <= 650px) {
+	.advantages__text {
+		text-align: start;
+	}
+}
+@media (width <= 768px) {
+	.advantages__icon {
+		width: 74px;
+		height: 74px;
+	}
+}
+@media (width <= 650px) {
+	.advantages__icon-box {
+		margin-right: 43px;
+	}
+}

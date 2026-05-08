@@ -1,0 +1,19 @@
+@import "./base/normalize.css";
+@import "./base/fonts.css";
+@import "./base/vars.css";
+@import "./base/globals.css";
+/* blocks */
+@import "./blocks/header.css";
+@import "./blocks/menu.css";
+@import "./blocks/burger.css";
+@import "./blocks/home.css";
+@import "./blocks/sections.css";
+@import "./blocks/about.css";
+@import "./blocks/expert.css";
+@import "./blocks/advantages.css";
+@import "./blocks/сategory.css";
+@import "./blocks/reviews.css";
+@import "./blocks/faq.css";
+@import "./blocks/news.css";
+@import "./blocks/feedback.css";
+@import "./blocks/footer.css";
